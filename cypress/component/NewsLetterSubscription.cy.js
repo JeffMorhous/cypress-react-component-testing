@@ -4,7 +4,7 @@ import App from "../.././src/components/App";
 
 describe("NewsLetterSubscription.cy.js", () => {
   describe("NewsLetterSubscription.cy.js", () => {
-    it("Check input field for placeholder", () => {
+    it("Check the input field for placeholder", () => {
       cy.mount(<App />); // mount the component
       cy.get("input").should("have.attr", "placeholder", "Subscribe to our newsletter"); // check the placeholder in the input field
     });
